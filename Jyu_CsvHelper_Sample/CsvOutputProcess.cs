@@ -49,6 +49,7 @@ namespace Jyu_CsvHelper_Sample
                 }
             };
 
+            // https://joshclose.github.io/CsvHelper/getting-started/
             using (var writer = new StreamWriter(setOutputPath))
             using (var csv = new CsvWriter(writer, csvWriterconfig))
             {
